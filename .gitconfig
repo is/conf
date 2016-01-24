@@ -1,3 +1,13 @@
+[push]
+	default = current
 [user]
 	name = Yu Xin
 	email = scaner@gmail.com
+[core]
+	autocrlf = input
+	excludesfile = /Users/is/.gitignore_global
+	quotepath = false
+[alias]
+	loga = log --graph --all --decorate
+	logad = log --graph --all --decorate --author-date-order
+	diffc = diff --cached
